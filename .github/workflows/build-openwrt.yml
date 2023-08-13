@@ -104,8 +104,8 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
         
-    - name: Download package
-      id: package
+    - name: Download package1
+      id: package1
       run: |
         cd openwrt
         make defconfig
